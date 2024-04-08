@@ -1,0 +1,8 @@
+defaults:
+  - default.yaml
+
+root: data/kitti/train/*.npy
+context_size: ${model.context_size}
+dataset_name: EHEM
+vari_data_len: True
+extra_pos: False

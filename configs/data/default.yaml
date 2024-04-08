@@ -1,0 +1,5 @@
+dataset_name: OctAttnDataset
+batch_size: 16
+num_workers: 16
+pin_memory: True
+level_k: ${model.level_k}

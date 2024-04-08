@@ -1,0 +1,8 @@
+defaults:
+  - default.yaml
+  - model: oct_attn.yaml
+  - data: obj.yaml
+
+hydra:
+  run:
+    dir: ./outputs/obj/${now:%Y-%m-%d}/${now:%H-%M-%S}

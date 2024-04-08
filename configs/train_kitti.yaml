@@ -1,0 +1,14 @@
+defaults:
+  - default.yaml
+  - model: oct_attn.yaml
+  - data: kitti.yaml
+
+train:
+  type: 'kitti'
+  lr_scheduler:
+    step_size: 3
+  epoch: 8
+
+hydra:
+  run:
+    dir: ./outputs/kitti/${now:%Y-%m-%d}/${now:%H-%M-%S}

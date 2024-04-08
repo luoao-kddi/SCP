@@ -1,0 +1,21 @@
+gpus: [0,1]
+debug: False
+
+train:
+  type: 'obj'
+  load_ckpt: ''
+  load_pretrain: ''
+  lr: 0.001
+  optimizer:
+    name: Adam
+  lr_scheduler:
+    name: StepLR
+    step_size: 6
+    gamma: 0.3
+  dropout: 0.
+  epoch: 16
+  seed: 42
+
+hydra:
+  run:
+    dir: ./outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}

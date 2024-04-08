@@ -1,0 +1,5 @@
+defaults:
+  - default.yaml
+
+root: data/kitti/train/*.npy
+context_size: ${model.context_size}

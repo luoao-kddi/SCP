@@ -1,0 +1,14 @@
+class_name: EHEM
+context_size: 8192
+token_num: 255
+layer_num: 3
+head_num: 4
+abs_pos_embed_dim: 0
+occ_embed_dim: 54
+level_embed_dim: 6
+octant_embed_dim: 4
+hidden_dimension: 300
+pos_max_len: 5000
+level_k: 4
+pos_embed: True
+max_level: 19
