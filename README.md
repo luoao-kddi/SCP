@@ -87,7 +87,7 @@ The `preproc_path` is generated in "Testing data preproc".
 
 ## Checkpoints
 
-SCP-EHEM and SCP-OctAttention for KITTI dataset: [link](https://drive.google.com/drive/folders/1PIwSZGPIZwEMiHVf8br4XFRDsdxcdq2T?usp=sharing)
+SCP-EHEM and SCP-OctAttention for KITTI and Ford dataset: [link](https://drive.google.com/drive/folders/1PIwSZGPIZwEMiHVf8br4XFRDsdxcdq2T?usp=sharing)
 
 ## Citation
 
