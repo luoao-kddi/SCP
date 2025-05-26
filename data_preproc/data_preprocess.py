@@ -15,7 +15,7 @@ def proc_pc(
     out_dir,
     out_name,
     qs=1,
-    offset=0,
+    offset='min',
     qlevel=None,
     rotation=False,
     normalize=False,
