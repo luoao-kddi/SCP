@@ -48,6 +48,7 @@ def proc_pc(
         points = cart2spher(ref_pt)
         bin_num = np.round(points[:, 0].max() / qs) + 1
         qs = np.array([qs, 2 * math.pi / (bin_num - 1), math.pi / (bin_num - 1)])[True]
+        offset = 0
 
     if type(offset) == str and offset == "min":
         offset = np.min(points, 0)
