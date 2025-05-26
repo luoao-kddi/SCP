@@ -238,6 +238,8 @@ def get_args():
     parser.add_argument("--spher", action="store_true", help="whether using spherical coordinate")
     return parser.parse_args()
 
+MVUB_NAMES = ['andrew10', 'david10', 'phil10',
+                'phil9', 'ricardo10', 'ricardo9', 'sarah10']
 
 if __name__ == "__main__":
     args = get_args()
